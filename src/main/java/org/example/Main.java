@@ -10,10 +10,10 @@ public class Main {
             Context context = Context.create();
 
             Value result = context.eval("ezs",
-                    "10 + 24 + 56.0");
+                    "10 + 24 + 56");
             System.out.println(result);
         }catch (Exception e) {
-                System.err.println("Errooor: " + e.getMessage());
+                System.err.println("Error: " + e.getMessage());
                 e.printStackTrace();
             }
     }

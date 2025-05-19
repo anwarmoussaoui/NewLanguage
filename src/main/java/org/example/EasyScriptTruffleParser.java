@@ -10,6 +10,7 @@ import org.antlr.v4.runtime.tree.TerminalNode;
 import java.io.IOException;
 import java.io.Reader;
 
+
 public final class EasyScriptTruffleParser {
     public static EasyScriptNode parse(String program) {
         return parse(CharStreams.fromString(program));

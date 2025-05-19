@@ -5,8 +5,7 @@ import com.oracle.truffle.api.TruffleLanguage;
 
 @TruffleLanguage.Registration(id = "ezs", name = "EasyScript",
         version = "0.1" , defaultMimeType = "application/x-sl",
-        characterMimeTypes = "application/x-sl", contextPolicy = TruffleLanguage.ContextPolicy.SHARED
-        ,website = "https://www.graalvm.org/graalvm-as-a-platform/implement-language/")
+        characterMimeTypes = "application/x-sl", contextPolicy = TruffleLanguage.ContextPolicy.SHARED)
 public final class EasyScriptTruffleLanguage extends TruffleLanguage<Void> {
     @Override
     protected CallTarget parse(ParsingRequest request) throws Exception {
