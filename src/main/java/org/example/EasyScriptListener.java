@@ -1,7 +1,6 @@
 // Generated from src/main/java/org/example/EasyScript.g4 by ANTLR 4.13.1
 package org.example;
 
-
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

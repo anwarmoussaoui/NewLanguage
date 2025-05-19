@@ -1,7 +1,7 @@
 grammar EasyScript ;
 
 @header{
-package com.endoflineblog.truffle.part_04;
+package org.example;
 }
 
 start : expr EOF ;
